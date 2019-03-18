@@ -71,7 +71,15 @@ window.addEventListener("keydown", function(e){
 
         box.style.left = przeliczoneR +'px';
         break;
-
 }
 
 });
+
+function winkIn(el) {
+    el.src = "beaver_wink.jpg";
+    console.log("WINk WINK");
+}
+
+function winkOut(el) {
+    el.src = "beaver.png";
+}
