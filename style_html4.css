@@ -1,0 +1,54 @@
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.spacer {
+    height: 3vh;
+    border: 0px;
+}
+
+#outerBox {
+  border: 2px dotted black;
+  width: 40vw;
+  height: 20vh;
+  margin-top: 0px;
+  display: inline-block;
+
+}
+
+#box1 {
+  border: 0px solid green;
+  position: relative;
+  left: 0vw;
+  right: 0vw;
+  top: 0vh;
+  bottom: 0vh;
+  width: 50px;
+  height: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#outerOuterBox {
+    border: 0px dotted red;
+    padding: 0px 0px 0px 0px;
+    width: 70%;
+    margin: auto;
+}
+
+#opis {
+    width: 20vw;
+    float:left;
+    padding-right: 5vw;
+}
+
+#arrows {
+    width: 110px;
+ }
